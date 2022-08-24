@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import styles from './CoinTracker.css';
 
-export default function CoinTracket() {
+export default function CoinTracker() {
   const topCoins = ['BTC', 'ETH', 'BNB', 'KLAY'];
   const [loading, setLoading] = useState(true);
   const [coins, setCoins] = useState([]);
