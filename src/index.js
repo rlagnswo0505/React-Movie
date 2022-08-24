@@ -11,11 +11,12 @@ import Exam5 from './Exam/Exam5';
 import Exam6 from './Exam/Exam6';
 import CoinTracket from './CoinTracket';
 import TodoApp from './TodoApp';
+import MovieApp from './MovieApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CoinTracket />
+    <MovieApp />
   </React.StrictMode>
 );
 
